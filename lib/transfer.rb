@@ -15,6 +15,7 @@ class Transfer
   
   def execute_transaction
     sender.deposit(amonut)
+    @amount
   end
   
 end
