@@ -14,7 +14,7 @@ class Transfer
   end
   
   def execute_transaction
-    BankAccount
+    BankAccount.deposit(amonut)
   end
   
 end
