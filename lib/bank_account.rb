@@ -22,6 +22,8 @@ def valid?
   if status.valid {|status@status= "open" && @balance> 0 
     return true
   end
+  
+  
 end
 
 
