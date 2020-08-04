@@ -11,5 +11,6 @@ class Transfer
   
   def valid?
     BanckAccount.valid
-    if 
+    if status= @status && @balance> 0 
+    return true
 end
